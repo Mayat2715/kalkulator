@@ -63,7 +63,7 @@ def fuck():
         print a,d,b,"=",kali(a,b)
     elif z == "pangkat":
         d = "^"
-        print "{}{}{} ="%(b,d,a),pangkat(a,b)
+        print "{}{}{} =".format(b,d,a),pangkat(a,b)
 try:
     a = int(sys.argv[2])
     b = int(sys.argv[3])
