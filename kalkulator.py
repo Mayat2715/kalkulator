@@ -46,7 +46,7 @@ def bagi(a,b):
     c = a/b
     return c
 def pangkat(a,b):
-    c = a**b
+    c = b**a
     return c
 def fuck():
     if z == "tambah":
@@ -63,7 +63,7 @@ def fuck():
         print a,d,b,"=",kali(a,b)
     elif z == "pangkat":
         d = "^"
-        print "%d%s%d ="%(a,d,b),pangkat(a,b)
+        print "{}{}{} ="%(b,d,a),pangkat(a,b)
 try:
     a = int(sys.argv[2])
     b = int(sys.argv[3])
