@@ -6,6 +6,8 @@ merasakan sensasi kalkulator di termux dengan bantuan python :*
 
 clone seperti biasa (git clone https://github.com/MrStalker121/kalkulator)
 
+buka directory kalkulator(cd kalkulator)
+
 sentuh aku :* (sh touchme.sh)
 
 <h2>! Punya fitur !</h2>
